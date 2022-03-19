@@ -1,0 +1,4 @@
+flask
+flask_restful
+mysql-connector-python
+python-dotenv
