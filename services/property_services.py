@@ -41,7 +41,7 @@ def map_data(data: list) -> list:
             lambda h: {
                 "address": h[1],
                 "city": h[2],
-                "status": status_mapper.DB_STATUS_MAPPER.get(h[6]),
+                "status": status_mapper.NUMBER_TO_STATUS_MAPPER.get(h[6]),
                 "price": h[3],
                 "description": h[4],
             },
